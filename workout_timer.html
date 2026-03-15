@@ -1,19 +1,176 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Workout Timer Support</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Intervalist Workout Timer Support</title>
     <style>
       body {
-        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-        padding: 0.5em;
+        font-family:
+          "Inter",
+          -apple-system,
+          BlinkMacSystemFont,
+          "Helvetica Neue",
+          Arial,
+          sans-serif;
+        line-height: 1.7;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        color: #1a1a1a;
+        background-color: #fafafa;
+      }
+
+      h1,
+      h2,
+      h3 {
+        color: #111;
+        font-weight: 600;
+        letter-spacing: -0.02em;
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-bottom: 2rem;
+      }
+
+      .section {
+        margin-bottom: 2rem;
+        padding: 2rem;
+        border-radius: 16px;
+        background-color: white;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
+        transition:
+          transform 0.2s ease,
+          box-shadow 0.2s ease;
+      }
+
+      .section:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+      }
+
+      .contact-box {
+        background: linear-gradient(135deg, #22c55e, #16a34a);
+        padding: 2rem;
+        border-radius: 16px;
+        text-align: center;
+        margin-top: 3rem;
+        color: white;
+      }
+
+      .contact-box h3 {
+        color: white;
+        margin-top: 0;
+      }
+
+      .contact-box a {
+        color: white;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+      }
+
+      .feature-list {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      .feature-list li {
+        margin-bottom: 1rem;
+        padding-left: 1.5rem;
+        position: relative;
+      }
+
+      .feature-list li:before {
+        content: "→";
+        position: absolute;
+        left: 0;
+        color: #22c55e;
+      }
+
+      a {
+        color: #22c55e;
+        text-decoration: none;
+        transition: all 0.2s ease;
+      }
+
+      a:hover {
+        color: #16a34a;
+        text-decoration: none;
+      }
+
+      @media (max-width: 768px) {
+        body {
+          padding: 20px;
+        }
+
+        h1 {
+          font-size: 2rem;
+        }
+
+        .section {
+          padding: 1.5rem;
+        }
       }
     </style>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet" />
   </head>
 
   <body>
-    <h2>Workout Timer Support</h2>
-    <p>Coming soon</p>
+    <h1>Welcome to Intervalist Workout Timer Support</h1>
+
+    <div class="section">
+      <h2>About Intervalist Workout Timer</h2>
+      <p>
+        Intervalist Workout Timer is an interval and workout timer app that helps you build and run custom routines with
+        precise timers and voice cues. Create workouts from your exercise library, attach custom intervals (work, rest,
+        cooldown), and follow along with audio announcements—all with a privacy-focused, offline-first design.
+      </p>
+    </div>
+
+    <div class="section">
+      <h2>Key Features</h2>
+      <ul class="feature-list">
+        <li>Custom interval timers with work, rest, and cooldown—countdown or stopwatch</li>
+        <li>Workout management: build and organize routines with exercises and intervals</li>
+        <li>Exercise library with categories, muscle groups, and built-in or custom exercises</li>
+        <li>Voice announcements for exercise and interval changes</li>
+        <li>Local-only data storage—works fully offline</li>
+        <li>No account required—start creating workouts immediately</li>
+        <li>Clean, intuitive interface for focused training</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Privacy Commitment</h2>
+      <p>We take your privacy seriously. The app:</p>
+      <ul class="feature-list">
+        <li>Stores all data locally on your device only (no cloud sync)</li>
+        <li>Works completely offline—no internet required</li>
+        <li>Does not collect or transmit personal information</li>
+        <li>Requires no user accounts, registrations, or sign-ups</li>
+        <li>No analytics, tracking, or data collection of any kind</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Support Resources</h2>
+      <ul class="feature-list">
+        <li>
+          Read our <a href="https://kadikis.github.io/Documents/privacy_workout_timer.html">Privacy Policy</a>
+          for detailed information about data handling
+        </li>
+        <li>Email us for technical support or feature requests</li>
+        <li>Regular app updates for improved timer and workout features</li>
+      </ul>
+    </div>
+
+    <div class="contact-box">
+      <h3>Contact Us</h3>
+      <p>Have questions or need assistance? We're here to help!</p>
+      <p>
+        Email:
+        <a href="mailto:app.intervalist@gmail.com?subject=WorkoutTimer%20Support">app.intervalist@gmail.com</a>
+      </p>
+    </div>
   </body>
 </html>
